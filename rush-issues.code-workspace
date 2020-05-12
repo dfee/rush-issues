@@ -1,0 +1,12 @@
+{
+  "folders": [
+    { "path": "." },
+    { "path": "libs/lib-a" },
+    { "path": "libs/lib-b" },
+    { "path": "services/service-a" },
+    { "path": "services/service-b" }
+  ],
+  "settings": {
+    "files.associations": { "*.json": "jsonc" }
+  }
+}

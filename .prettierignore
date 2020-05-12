@@ -1,0 +1,4 @@
+common/scripts/
+common/temp/
+node_modules/
+dist/

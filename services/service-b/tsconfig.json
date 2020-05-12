@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2017"]
+  },
+  "exclude": ["dist", "node_modules"],
+  "extends": "../../tsconfig.json",
+  "include": ["**/*.ts"],
+  "references": [{ "path": "../../libs/lib-b/tsconfig.build.json" }]
+}

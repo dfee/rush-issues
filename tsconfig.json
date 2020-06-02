@@ -11,6 +11,5 @@
     "removeComments": true,
     "sourceMap": true,
     "strict": true
-  },
-  "files": []
+  }
 }

@@ -1,8 +1,11 @@
+Dockerfile
+**/*.tsbuildinfo
+
 # Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
 
 # Runtime data
 *.pid
@@ -31,7 +34,7 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+**/node_modules/
 jspm_packages/
 
 # Optional npm cache directory
@@ -59,13 +62,19 @@ jspm_packages/
 .DS_Store
 
 # Rush temporary files
-common/deploy/
 common/temp/
 **/.rush/temp/
 
-# TypeScript temporary files
+# TypeScript cache
 *.tsbuildinfo
 
-# Build
-dist
-build
+# Distributables
+**/build
+**/dist
+*.zip
+
+# Works in progress
+**/.wip/*
+
+# IDE support files
+.idea/

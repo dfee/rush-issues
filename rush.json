@@ -343,25 +343,24 @@
   "projects": [
     {
       "packageName": "@rush-issues/lib-a",
-      "projectFolder": "libs/lib-a",
-      "shouldPublish": true
+      "projectFolder": "libs/lib-a"
     },
     {
       "packageName": "@rush-issues/lib-b",
-      "projectFolder": "libs/lib-b",
-      "shouldPublish": true
+      "projectFolder": "libs/lib-b"
     },
     {
       "packageName": "@rush-issues/service-a",
-      "projectFolder": "services/service-a",
-      "shouldPublish": true
+      "projectFolder": "services/service-a"
     },
     {
       "packageName": "@rush-issues/service-b",
-      "projectFolder": "services/service-b",
-      "shouldPublish": true
+      "projectFolder": "services/service-b"
+    },
+    {
+      "packageName": "@rush-issues/web-a",
+      "projectFolder": "web/web-a"
     }
-
     // {
     //   /**
     //    * The NPM package name of the project (must match package.json)

@@ -5,6 +5,7 @@
     { "path": "libs/lib-b" },
     { "path": "services/service-a" },
     { "path": "services/service-b" }
+    { "path": "web/web-a" },
   ],
   "settings": {
     "files.associations": { "*.json": "jsonc" }

@@ -343,19 +343,23 @@
   "projects": [
     {
       "packageName": "@rush-issues/lib-a",
-      "projectFolder": "libs/lib-a"
+      "projectFolder": "libs/lib-a",
+      "versionPolicyName": "services"
     },
     {
       "packageName": "@rush-issues/lib-b",
-      "projectFolder": "libs/lib-b"
+      "projectFolder": "libs/lib-b",
+      "versionPolicyName": "services"
     },
     {
       "packageName": "@rush-issues/service-a",
-      "projectFolder": "services/service-a"
+      "projectFolder": "services/service-a",
+      "versionPolicyName": "services"
     },
     {
       "packageName": "@rush-issues/service-b",
-      "projectFolder": "services/service-b"
+      "projectFolder": "services/service-b",
+      "versionPolicyName": "services"
     }
     // {
     //   /**

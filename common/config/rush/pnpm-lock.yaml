@@ -4,29 +4,29 @@ dependencies:
   '@rush-temp/service-a': 'file:projects/service-a.tgz'
   '@rush-temp/service-b': 'file:projects/service-b.tgz'
   '@types/koa': 2.11.3
-  '@types/luxon': 1.24.0
+  '@types/luxon': 1.24.1
   koa: 2.11.0
   luxon: 1.24.1
-  ts-node: 8.10.1_typescript@3.8.3
+  ts-node: 8.10.2_typescript@3.8.3
   typescript: 3.8.3
 lockfileVersion: 5.1
 packages:
   /@types/accepts/1.3.5:
     dependencies:
-      '@types/node': 13.13.5
+      '@types/node': 14.0.23
     dev: false
     resolution:
       integrity: sha512-jOdnI/3qTpHABjM5cx1Hc0sKsPoYCp+DP/GJRGtDlPd7fiV9oXGGIcjW/ZOxLIvjGz8MA+uMZI9metHlgqbgwQ==
   /@types/body-parser/1.19.0:
     dependencies:
       '@types/connect': 3.4.33
-      '@types/node': 13.13.5
+      '@types/node': 14.0.23
     dev: false
     resolution:
       integrity: sha512-W98JrE0j2K78swW4ukqMleo8R7h/pFETjM2DQ90MF6XK2i4LO4W3gQ71Lt4w3bfm2EvVSyWHplECvB5sK22yFQ==
   /@types/connect/3.4.33:
     dependencies:
-      '@types/node': 13.13.5
+      '@types/node': 14.0.23
     dev: false
     resolution:
       integrity: sha512-2+FrkXY4zllzTNfJth7jOqEHC+enpLeGslEhpnTAkg21GkRrWV4SsAtqchtT4YS9/nODBU2/ZfsBY2X4J/dX7A==
@@ -37,29 +37,29 @@ packages:
   /@types/cookies/0.7.4:
     dependencies:
       '@types/connect': 3.4.33
-      '@types/express': 4.17.6
+      '@types/express': 4.17.7
       '@types/keygrip': 1.0.2
-      '@types/node': 13.13.5
+      '@types/node': 14.0.23
     dev: false
     resolution:
       integrity: sha512-oTGtMzZZAVuEjTwCjIh8T8FrC8n/uwy+PG0yTvQcdZ7etoel7C7/3MSd7qrukENTgQtotG7gvBlBojuVs7X5rw==
-  /@types/express-serve-static-core/4.17.7:
+  /@types/express-serve-static-core/4.17.8:
     dependencies:
-      '@types/node': 13.13.5
-      '@types/qs': 6.9.2
+      '@types/node': 14.0.23
+      '@types/qs': 6.9.3
       '@types/range-parser': 1.2.3
     dev: false
     resolution:
-      integrity: sha512-EMgTj/DF9qpgLXyc+Btimg+XoH7A2liE8uKul8qSmMTHCeNYzydDKFdsJskDvw42UsesCnhO63dO0Grbj8J4Dw==
-  /@types/express/4.17.6:
+      integrity: sha512-1SJZ+R3Q/7mLkOD9ewCBDYD2k0WyZQtWYqF/2VvoNN2/uhI49J9CDN4OAm+wGMA0DbArA4ef27xl4+JwMtGggw==
+  /@types/express/4.17.7:
     dependencies:
       '@types/body-parser': 1.19.0
-      '@types/express-serve-static-core': 4.17.7
-      '@types/qs': 6.9.2
-      '@types/serve-static': 1.13.3
+      '@types/express-serve-static-core': 4.17.8
+      '@types/qs': 6.9.3
+      '@types/serve-static': 1.13.4
     dev: false
     resolution:
-      integrity: sha512-n/mr9tZI83kd4azlPG5y997C/M4DNABK9yErhFM6hKdym4kkmd9j0vtsJyjFIwfRBxtrxZtAfGZCNRIBMFLK5w==
+      integrity: sha512-dCOT5lcmV/uC2J9k0rPafATeeyz+99xTt54ReX11/LObZgfzJqZNcW27zGhYyX+9iSEGXGt5qLPwRSvBZcLvtQ==
   /@types/http-assert/1.5.1:
     dev: false
     resolution:
@@ -82,37 +82,37 @@ packages:
       '@types/http-assert': 1.5.1
       '@types/keygrip': 1.0.2
       '@types/koa-compose': 3.2.5
-      '@types/node': 13.13.5
+      '@types/node': 14.0.23
     dev: false
     resolution:
       integrity: sha512-ABxVkrNWa4O/Jp24EYI/hRNqEVRlhB9g09p48neQp4m3xL1TJtdWk2NyNQSMCU45ejeELMQZBYyfstyVvO2H3Q==
-  /@types/luxon/1.24.0:
+  /@types/luxon/1.24.1:
     dev: false
     resolution:
-      integrity: sha512-OCTdVRQf/ge2ULlGqVKRI/HwyWoKpLV3ppLt6H27yzK/qdYNJ60Sz5tUxy3Jt1RD9K4Iz1tcDWPFJArBFZNAWQ==
-  /@types/mime/2.0.1:
+      integrity: sha512-t93qL4l3PRxy4qQkXwiPS6qjIt7S6o90XMuCfvYDgIAQJvgSBni5qVPxkhGYPnZZPS9ASHOTeCZXRNmdiHHHcg==
+  /@types/mime/2.0.2:
     dev: false
     resolution:
-      integrity: sha512-FwI9gX75FgVBJ7ywgnq/P7tw+/o1GUbtP0KzbtusLigAOgIgNISRK0ZPl4qertvXSIE8YbsVJueQ90cDt9YYyw==
-  /@types/node/13.13.5:
+      integrity: sha512-4kPlzbljFcsttWEq6aBW0OZe6BDajAmyvr2xknBG92tejQnvdGtT9+kXSZ580DqpxY9qG2xeQVF9Dq0ymUTo5Q==
+  /@types/node/14.0.23:
     dev: false
     resolution:
-      integrity: sha512-3ySmiBYJPqgjiHA7oEaIo2Rzz0HrOZ7yrNO5HWyaE5q0lQ3BppDZ3N53Miz8bw2I7gh1/zir2MGVZBvpb1zq9g==
-  /@types/qs/6.9.2:
+      integrity: sha512-Z4U8yDAl5TFkmYsZdFPdjeMa57NOvnaf1tljHzhouaPEp7LCj2JKkejpI1ODviIAQuW4CcQmxkQ77rnLsOOoKw==
+  /@types/qs/6.9.3:
     dev: false
     resolution:
-      integrity: sha512-a9bDi4Z3zCZf4Lv1X/vwnvbbDYSNz59h3i3KdyuYYN+YrLjSeJD0dnphdULDfySvUv6Exy/O0K6wX/kQpnPQ+A==
+      integrity: sha512-7s9EQWupR1fTc2pSMtXRQ9w9gLOcrJn+h7HOXw4evxyvVqMi4f+q7d2tnFe3ng3SNHjtK+0EzGMGFUQX4/AQRA==
   /@types/range-parser/1.2.3:
     dev: false
     resolution:
       integrity: sha512-ewFXqrQHlFsgc09MK5jP5iR7vumV/BYayNC6PgJO2LPe8vrnNFyjQjSppfEngITi0qvfKtzFvgKymGheFM9UOA==
-  /@types/serve-static/1.13.3:
+  /@types/serve-static/1.13.4:
     dependencies:
-      '@types/express-serve-static-core': 4.17.7
-      '@types/mime': 2.0.1
+      '@types/express-serve-static-core': 4.17.8
+      '@types/mime': 2.0.2
     dev: false
     resolution:
-      integrity: sha512-oprSwp094zOglVrXdlo/4bAHtKTAxX6VT8FOZlBKrmyLbNvE1zxZyJ6yikMVtHIvwP45+ZQGJn+FdXGKTozq0g==
+      integrity: sha512-jTDt0o/YbpNwZbQmE/+2e+lfjJEJJR0I3OFaKQKPWkASkCoW3i6fsUnqudSMcNAfbtmADGu8f4MV4q+GqULmug==
   /accepts/1.3.7:
     dependencies:
       mime-types: 2.1.27
@@ -254,6 +254,18 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha512-ZTTX0MWrsQ2ZAhA1cejAwDLycFsd7I7nVtnkT3Ol0aqodaKW+0CTZDQ1uBv5whptCnc8e8HeRRJxRs0kmm/Qfw==
+  /http-errors/1.8.0:
+    dependencies:
+      depd: 1.1.2
+      inherits: 2.0.4
+      setprototypeof: 1.2.0
+      statuses: 1.5.0
+      toidentifier: 1.0.0
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha512-4I8r0C5JDhT5VkvI47QktDW75rNlGVsUf/8hzjCC/wkWI/jdTRmBb9aI7erSG82r1bjKY3F6k28WnsVxB1C73A==
   /inherits/2.0.4:
     dev: false
     resolution:
@@ -307,7 +319,7 @@ packages:
       escape-html: 1.0.3
       fresh: 0.5.2
       http-assert: 1.4.1
-      http-errors: 1.7.3
+      http-errors: 1.8.0
       is-generator-function: 1.0.7
       koa-compose: 4.1.0
       koa-convert: 1.2.0
@@ -386,6 +398,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
+  /setprototypeof/1.2.0:
+    dev: false
+    resolution:
+      integrity: sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==
   /source-map-support/0.5.19:
     dependencies:
       buffer-from: 1.1.1
@@ -411,7 +427,7 @@ packages:
       node: '>=0.6'
     resolution:
       integrity: sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
-  /ts-node/8.10.1_typescript@3.8.3:
+  /ts-node/8.10.2_typescript@3.8.3:
     dependencies:
       arg: 4.1.3
       diff: 4.0.2
@@ -426,7 +442,7 @@ packages:
     peerDependencies:
       typescript: '>=2.7'
     resolution:
-      integrity: sha512-bdNz1L4ekHiJul6SHtZWs1ujEKERJnHs4HxN7rjTyyVOFf3HaJ6sLqe6aPG62XTzAB/63pKRh5jTSWL0D7bsvw==
+      integrity: sha512-ISJJGgkIpDdBhWVu3jufsWpK3Rzo7bdiIXJjQc0ynKxVOVcg2oIrf2H2cejminGrptVc6q6/uynAHNCuWGbpVA==
   /tsscmp/1.0.6:
     dev: false
     engines:
@@ -469,7 +485,7 @@ packages:
       integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==
   'file:projects/lib-a.tgz':
     dependencies:
-      ts-node: 8.10.1_typescript@3.8.3
+      ts-node: 8.10.2_typescript@3.8.3
       typescript: 3.8.3
     dev: false
     name: '@rush-temp/lib-a'
@@ -479,9 +495,9 @@ packages:
     version: 0.0.0
   'file:projects/lib-b.tgz':
     dependencies:
-      '@types/luxon': 1.24.0
+      '@types/luxon': 1.24.1
       luxon: 1.24.1
-      ts-node: 8.10.1_typescript@3.8.3
+      ts-node: 8.10.2_typescript@3.8.3
       typescript: 3.8.3
     dev: false
     name: '@rush-temp/lib-b'
@@ -493,7 +509,7 @@ packages:
     dependencies:
       '@types/koa': 2.11.3
       koa: 2.11.0
-      ts-node: 8.10.1_typescript@3.8.3
+      ts-node: 8.10.2_typescript@3.8.3
       typescript: 3.8.3
     dev: false
     name: '@rush-temp/service-a'
@@ -505,7 +521,7 @@ packages:
     dependencies:
       '@types/koa': 2.11.3
       koa: 2.11.0
-      ts-node: 8.10.1_typescript@3.8.3
+      ts-node: 8.10.2_typescript@3.8.3
       typescript: 3.8.3
     dev: false
     name: '@rush-temp/service-b'
@@ -513,7 +529,6 @@ packages:
       integrity: sha512-/B/6cMg83UtfL7GOFmKI3ZhTGfTHA2IRuhg1w7GOSGezK0+OI6Xm/wIRuUchQpcVt1AMfPjRnWKAZuSni2UPvA==
       tarball: 'file:projects/service-b.tgz'
     version: 0.0.0
-registry: ''
 specifiers:
   '@rush-temp/lib-a': 'file:./projects/lib-a.tgz'
   '@rush-temp/lib-b': 'file:./projects/lib-b.tgz'
